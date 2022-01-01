@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300;400;600;700;800&family=Questrial&family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+  --box-shadow-1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --box-shadow-2: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  --box-shadow-3: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+  --clr-background: #f1f5f8;
+  --clr-text-primary: #324d67;
+  --clr-text-secondary: #617d98;
+  --clr-orange: #ba5d2c;
+  --clr-gray: #d1dae4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--clr-background);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus,
+button:active {
+  outline: none;
+}
